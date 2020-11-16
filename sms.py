@@ -4,7 +4,7 @@ import json
 
 # API url
 url = 'https://api.bulksms.com/v1/messages' 
-number = input('Enter cell number starting with country code, .i.e. +27...: ')
+number = input('Enter cell number starting with country code, .i.e. 27...: ')
 message = input('Enter your message...: ')
 
 payload = {
